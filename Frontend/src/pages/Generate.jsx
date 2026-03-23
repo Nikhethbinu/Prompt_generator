@@ -18,7 +18,7 @@ function Generate() {
 
     try {
 
-      const response = await fetch("https://your-backend-url/generate", {
+      const response = await fetch("https://localhost:5000/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
