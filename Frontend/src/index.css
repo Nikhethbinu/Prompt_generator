@@ -8,7 +8,7 @@ body{
   position: relative;
 }
 
-/* background image */
+/* background image code */
 body::before{
   content: "";
   position: fixed;
